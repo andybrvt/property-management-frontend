@@ -15,7 +15,7 @@ export default function Home() {
         Upload Your Driver's License
       </h1>
       <p className="text-sm text-gray-600 mb-6 text-center max-w-md">
-        Please upload a clear photo or PDF of your valid driver's license to
+        Please upload a clear photo or PDF of your valid driver&apos;s license to
         verify your identity. Accepted formats: JPG, PNG, or PDF.
       </p>
       <form
