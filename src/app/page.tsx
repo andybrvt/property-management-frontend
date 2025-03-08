@@ -27,7 +27,6 @@ export default function Home() {
     
         const rawText = await res.text();
         console.log("📄 Raw response text:", rawText);
-    
         const data = JSON.parse(rawText);
         console.log("📡 Parsed JSON:", data);
     

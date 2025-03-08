@@ -52,7 +52,6 @@ export default function UploadIDPage() {
         setStatus('❌ Failed to upload. Please try again.')
       }
     } catch (error) {
-      setStatus('❌ Error uploading file.')
       console.error('❌ Error uploading file:', error)
     }
   }
