@@ -64,6 +64,7 @@ export default function Home() {
       }
     } catch (error) {
       setStatus('❌ Error sending texts.')
+      console.error('❌ Error sending texts:', error)
     }
   }
 

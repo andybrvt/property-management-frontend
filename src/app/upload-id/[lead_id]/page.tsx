@@ -53,6 +53,7 @@ export default function UploadIDPage() {
       }
     } catch (error) {
       setStatus('❌ Error uploading file.')
+      console.error('❌ Error uploading file:', error)
     }
   }
 
@@ -74,7 +75,7 @@ export default function UploadIDPage() {
             ✅ ID Uploaded Successfully!
           </h1>
           <p className="text-sm text-gray-600 mb-6 text-center max-w-md">
-            Thanks for uploading your ID. You'll receive a text shortly with a link to schedule your showing!
+            Thanks for uploading your ID. You&apos;ll receive a text shortly with a link to schedule your showing!
           </p>
         </>
       ) : (
